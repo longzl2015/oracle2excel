@@ -60,7 +60,7 @@ public class Oracle2excelApplication {
     }
 
     private Map<String, List<Field>> convert2Map(List<Field> fields) {
-        Map<String, List<Field>> map = new HashMap<>();
+        Map<String, List<Field>> map = new LinkedHashMap<>();
 
         for (Field field : fields) {
             String tableName = field.getTableName();
