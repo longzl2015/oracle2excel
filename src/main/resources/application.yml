@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@10.100.1.210:49161:xe
+    username: portal
+    password: portal
